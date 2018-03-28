@@ -11,8 +11,8 @@ service:
   tier: frontend
   type: NodePort
   protocol: TCP
-  internalPort: 8080
-  externalPort: 8080
+  internalPort: 8808
+  externalPort: 8808
   nodeport: 30091
 resources:
   limits:
