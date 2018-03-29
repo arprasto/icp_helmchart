@@ -8,6 +8,6 @@ entries:
     digest: b65cef8ae1ef8b2d388e055619b8f9e2e8ad065ace072a019a58911b77d3d217
     name: userinfoicphelmchart
     urls:
-    - https://github.com/arprasto/icp_helmchart/helmrepo/blob/master/userinfoicphelmchart-0.1.0.tgz
+    - https://github.com/arprasto/icp_helmchart/blob/master/helmrepo/userinfoicphelmchart-0.1.0.tgz
     version: 0.1.0
 generated: 2018-03-29T15:59:05.551334984+05:30
