@@ -2,12 +2,18 @@ apiVersion: v1
 entries:
   userinfoicphelmchart:
   - apiVersion: v1
-    appVersion: "1.0"
+    appVersion: 1.0
     created: 2018-03-29T15:59:05.556568437+05:30
     description: A Helm chart for Kubernetes
+    icon: http://icons.iconarchive.com/icons/kyo-tux/aeon/256/Sign-LogOff-icon.png
     digest: b65cef8ae1ef8b2d388e055619b8f9e2e8ad065ace072a019a58911b77d3d217
     name: userinfoicphelmchart
     urls:
     - https://github.com/arprasto/icp_helmchart/blob/master/helmrepo/userinfoicphelmchart-0.1.0.tgz
+    maintainers:
+    - email: arprasto@in.ibm.com
+      name: Arpit Rastogi
+    sources: 
+    - https://github.com/arprasto/icp_helmchart
     version: 0.1.0
 generated: 2018-03-29T15:59:05.551334984+05:30
