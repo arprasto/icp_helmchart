@@ -6,8 +6,12 @@ entries:
     created: 2018-03-29T17:21:02.0283778+05:30
     description: A Helm chart for Kubernetes
     digest: b65cef8ae1ef8b2d388e055619b8f9e2e8ad065ace072a019a58911b77d3d217
+    icon: http://icons.iconarchive.com/icons/kyo-tux/aeon/256/Sign-LogOff-icon.png
     name: userinfoicphelmchart
     urls:
     - https://arprasto.github.io/icp_helmchart/userinfoicphelmchart-0.1.0.tgz
     version: 0.1.0
+    maintainers:
+    - email: arprasto@in.ibm.com
+      name: Arpit Rastogi
 generated: 2018-03-29T17:21:02.021053077+05:30
