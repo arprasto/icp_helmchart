@@ -5,14 +5,15 @@ metadata:
   labels:
     app: {{ .Chart.Name }}
     tier: {{ .Values.service.tier }}
+    release: {{ .Release.Name }}
+
 spec:
   type: {{ .Values.service.type }}
   ports:
-  - port: {{ .Values.service.externalPort }}
-    targetPort: {{ .Values.service.internalPort }}
-    protocol: TCP
-    name: {{ .Values.service.name }}
-    nodePort: {{ .Values.service.nodeport }}
+    - port: {{ .Values.service.internalPort }}
+      targetPort: {{ .Values.service.externalPort }}
+      nodePort: {{ .Values.service.nodeport }}
   selector:
     app: {{ .Chart.Name }}
+    release: {{ .Release.Name }}
     tier: {{ .Values.service.tier }}

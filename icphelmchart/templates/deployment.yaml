@@ -5,31 +5,29 @@ metadata:
   labels:
     app: {{ .Chart.Name }}
     tier: {{ .Values.service.tier }}
+    release: {{ .Release.Name }}
 spec:
+  strategy:
+      type: Recreate
   replicas: {{ .Values.replicaCount }}
+  selector:
+    matchLabels:
+      app: {{ .Chart.Name }}
+      release: {{ .Release.Name }} 
+      tier: {{ .Values.service.tier }} 
   template:
     metadata:
       labels:
         app: {{ .Chart.Name }}
         tier: {{ .Values.service.tier }}
+        release: {{ .Release.Name }}
     spec:
       containers:
       - name: {{ .Chart.Name }}
         image: "{{ .Values.image.repository }}:{{ .Values.image.tag }}"
         imagePullPolicy: {{ .Values.image.pullPolicy }}
-        #volumeMounts:
-        #- mountPath: /opt/service-bind
-        #  name: service-bind-volume
         ports:
-        - name: http
-          containerPort: {{ .Values.service.internalPort }}
-        #env:
-        #- name: svcbindingmountpath
-        #  value: /opt/service-bind
+        - name: {{ .Chart.Name }}
+          containerPort: 80
         resources: 
 {{ toYaml .Values.resources | indent 10 }}
-      #volumes:
-      #- name: service-bind-volume
-      #  secret:
-      #    defaultMode: 420
-      #    secretName: binding-arpittestvisualrecognition-m2

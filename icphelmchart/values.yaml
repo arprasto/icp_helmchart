@@ -3,17 +3,16 @@
 # Declare variables to be passed into your templates.
 replicaCount: 1
 image:
-  repository: arprasto/userinfohelmchart
+  repository: arprasto/userinfoicphelmchart
   tag: v1
   pullPolicy: Always
 service:
-  name: userinfoicphelmchart
+  name: icphelmchart
   tier: frontend
   type: NodePort
-  protocol: TCP
-  internalPort: 8808
-  externalPort: 8808
-  nodeport: 30091
+  internalPort: 80
+  externalPort: 80
+  nodeport: 31000
 resources:
   limits:
     memory: 512Mi
