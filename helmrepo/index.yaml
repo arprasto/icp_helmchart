@@ -3,11 +3,11 @@ entries:
   icphelmchart:
   - apiVersion: v1
     appVersion: "1.0"
-    created: 2018-03-30T15:24:06.588261936+05:30
+    created: 2018-03-30T15:43:05.393202042+05:30
     description: A Helm chart for Kubernetes
-    digest: c716460e9909f704a65f7329d1af702290c67a00b83100de5ccb3c37d1c67366
+    digest: 8f134095da1ae49b07094a0f53febf027d48096e014eebca709b9fae593c15c2
     name: icphelmchart
     urls:
     - https://arprasto.github.io/icp_helmchart/helmrepo/icphelmchart-0.1.0.tgz
     version: 0.1.0
-generated: 2018-03-30T15:24:06.587734508+05:30
+generated: 2018-03-30T15:43:05.390950972+05:30
