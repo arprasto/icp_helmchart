@@ -10,8 +10,8 @@ service:
   name: icphelmchart
   tier: frontend
   type: NodePort
-  internalPort: 6001
-  externalPort: 6001
+  internalPort: 80
+  externalPort: 80
   nodeport: 31000
 resources:
   limits:
