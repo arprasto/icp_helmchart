@@ -9,5 +9,6 @@ entries:
     name: icphelmchart
     urls:
     - https://arprasto.github.io/icp_helmchart/helmrepo/icphelmchart-0.1.0.tgz
+    - https://arprasto.github.io/icp_helmchart/helmrepo/insurance-live-call-asst-0.1.0.tgz
     version: 0.1.0
 generated: 2018-12-17T20:37:38.398270469+05:30
