@@ -3,7 +3,7 @@ entries:
   icphelmchart:
   - apiVersion: v1
     appVersion: "1.0"
-    created: 2019-06-17T15:58:45.0759687+05:30
+    created: 2019-06-17T17:21:27.233098606+05:30
     description: A Helm chart for Kubernetes
     digest: aa2cc44e957b272f563d686922433d838bef6f70d57d12b6a69e1c44995b98aa
     name: icphelmchart
@@ -13,7 +13,16 @@ entries:
   spark-app-launcher-helmchart:
   - apiVersion: v1
     appVersion: "1.0"
-    created: 2019-06-17T15:58:45.080069594+05:30
+    created: 2019-06-17T17:21:27.23925838+05:30
+    description: A Helm chart for Kubernetes
+    digest: 1084205f63647fcbedc0af7eb8d0ce576824aa9236eb7ea41123352555ab5220
+    name: spark-app-launcher-helmchart
+    urls:
+    - https://arprasto.github.io/icp_helmchart/helmrepo/spark-app-launcher-helmchart-0.1.2.tgz
+    version: 0.1.2
+  - apiVersion: v1
+    appVersion: "1.0"
+    created: 2019-06-17T17:21:27.237470962+05:30
     description: A Helm chart for Kubernetes
     digest: aa9fbf9b53369bf641b75caa2d918b16269a684db32f0b752e03fa75812889e9
     name: spark-app-launcher-helmchart
@@ -22,11 +31,11 @@ entries:
     version: 0.1.1
   - apiVersion: v1
     appVersion: "1.0"
-    created: 2019-06-17T15:58:45.079082436+05:30
+    created: 2019-06-17T17:21:27.2353885+05:30
     description: A Helm chart for Kubernetes
     digest: bed61e43115651793b5221e8238f3648a4ee68f17227b6abd4db831aeb2f967a
     name: spark-app-launcher-helmchart
     urls:
     - https://arprasto.github.io/icp_helmchart/helmrepo/spark-app-launcher-helmchart-0.1.0.tgz
     version: 0.1.0
-generated: 2019-06-17T15:58:45.068905716+05:30
+generated: 2019-06-17T17:21:27.230756017+05:30
