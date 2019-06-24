@@ -3,7 +3,7 @@ entries:
   age-gender-detection-ai-api:
   - apiVersion: v1
     appVersion: "1.0"
-    created: 2019-06-21T20:21:03.53997643+05:30
+    created: 2019-06-24T14:27:14.753431638+05:30
     description: A Helm chart for deploying service on k8 cluster to detect age and
       gender of a person
     digest: 686e2e817b1bb108f78cefdbb4ef79e5ce23703d697d35e0910a140aa0cfa2e5
@@ -11,10 +11,20 @@ entries:
     urls:
     - https://arprasto.github.io/icp_helmchart/helmrepo/age-gender-detection-ai-api-0.1.0.tgz
     version: 0.1.0
+  crowd-ai-api:
+  - apiVersion: v1
+    appVersion: "1.0"
+    created: 2019-06-24T14:27:14.755729938+05:30
+    description: crowd related api Helm chart for deploying service on k8 cluster.
+    digest: 5207badf03ba4cd407b72fbdac2d34377d33f00ac9cba7aa05ff625765df6abd
+    name: crowd-ai-api
+    urls:
+    - https://arprasto.github.io/icp_helmchart/helmrepo/crowd-ai-api-0.1.0.tgz
+    version: 0.1.0
   icphelmchart:
   - apiVersion: v1
     appVersion: "1.0"
-    created: 2019-06-21T20:21:03.54094877+05:30
+    created: 2019-06-24T14:27:14.75770311+05:30
     description: A Helm chart for Kubernetes
     digest: aa2cc44e957b272f563d686922433d838bef6f70d57d12b6a69e1c44995b98aa
     name: icphelmchart
@@ -24,7 +34,7 @@ entries:
   spark-app-launcher-helmchart:
   - apiVersion: v1
     appVersion: "1.0"
-    created: 2019-06-21T20:21:03.549078021+05:30
+    created: 2019-06-24T14:27:14.765922646+05:30
     description: A Helm chart for Kubernetes
     digest: eb1017ecda8f91be8e1c2dde7f90f480b28810e51ba7d74065c06d1debd0de75
     name: spark-app-launcher-helmchart
@@ -33,7 +43,7 @@ entries:
     version: 0.1.3
   - apiVersion: v1
     appVersion: "1.0"
-    created: 2019-06-21T20:21:03.546839907+05:30
+    created: 2019-06-24T14:27:14.763865075+05:30
     description: A Helm chart for Kubernetes
     digest: 1084205f63647fcbedc0af7eb8d0ce576824aa9236eb7ea41123352555ab5220
     name: spark-app-launcher-helmchart
@@ -42,7 +52,7 @@ entries:
     version: 0.1.2
   - apiVersion: v1
     appVersion: "1.0"
-    created: 2019-06-21T20:21:03.544499317+05:30
+    created: 2019-06-24T14:27:14.761317322+05:30
     description: A Helm chart for Kubernetes
     digest: aa9fbf9b53369bf641b75caa2d918b16269a684db32f0b752e03fa75812889e9
     name: spark-app-launcher-helmchart
@@ -51,7 +61,7 @@ entries:
     version: 0.1.1
   - apiVersion: v1
     appVersion: "1.0"
-    created: 2019-06-21T20:21:03.542076987+05:30
+    created: 2019-06-24T14:27:14.75983301+05:30
     description: A Helm chart for Kubernetes
     digest: bed61e43115651793b5221e8238f3648a4ee68f17227b6abd4db831aeb2f967a
     name: spark-app-launcher-helmchart
@@ -61,7 +71,7 @@ entries:
   voice-emotions-detection-helmchart:
   - apiVersion: v1
     appVersion: "1.0"
-    created: 2019-06-21T20:21:03.551474375+05:30
+    created: 2019-06-24T14:27:14.768124524+05:30
     description: A Helm chart for deploying service on k8 cluster to detect voice
       emotions.
     digest: 18483f7bb045e7ab24ea0b028cb1b2e889522fa1d043be0c55cc132bcec77da6
@@ -69,4 +79,4 @@ entries:
     urls:
     - https://arprasto.github.io/icp_helmchart/helmrepo/voice-emotions-detection-helmchart-0.1.0.tgz
     version: 0.1.0
-generated: 2019-06-21T20:21:03.53110227+05:30
+generated: 2019-06-24T14:27:14.743721282+05:30
