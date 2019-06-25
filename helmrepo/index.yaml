@@ -3,7 +3,7 @@ entries:
   age-gender-detection-ai-api:
   - apiVersion: v1
     appVersion: "1.0"
-    created: 2019-06-24T15:13:49.344538328+05:30
+    created: 2019-06-25T14:20:28.755132587+05:30
     description: A Helm chart for deploying service on k8 cluster to detect age and
       gender of a person
     digest: 686e2e817b1bb108f78cefdbb4ef79e5ce23703d697d35e0910a140aa0cfa2e5
@@ -14,7 +14,7 @@ entries:
   crowd-ai-api:
   - apiVersion: v1
     appVersion: "1.0"
-    created: 2019-06-24T15:13:49.346796+05:30
+    created: 2019-06-25T14:20:28.757911006+05:30
     description: A Helm chart for deploying service on k8 cluster to detect age and
       gender of a person
     digest: 99b8c66b752b2870cc3be596cf78d7bf22d9bd70bddf5c34f3fb4d834a9a2082
@@ -24,7 +24,7 @@ entries:
     version: 0.1.1
   - apiVersion: v1
     appVersion: "1.0"
-    created: 2019-06-24T15:13:49.34649864+05:30
+    created: 2019-06-25T14:20:28.757043167+05:30
     description: A Helm chart for deploying service on k8 cluster to detect age and
       gender of a person
     digest: 5207badf03ba4cd407b72fbdac2d34377d33f00ac9cba7aa05ff625765df6abd
@@ -32,10 +32,21 @@ entries:
     urls:
     - https://arprasto.github.io/icp_helmchart/helmrepo/crowd-ai-api-0.1.0.tgz
     version: 0.1.0
+  emotions-analysis-ai-api:
+  - apiVersion: v1
+    appVersion: "1.0"
+    created: 2019-06-25T14:20:28.758716187+05:30
+    description: A Helm chart for deploying service on k8 cluster to detect age and
+      gender of a person
+    digest: 393f86d31d2ea1880131b453a02a67c805f623a70861a9c525377f4dd4308f2b
+    name: emotions-analysis-ai-api
+    urls:
+    - https://arprasto.github.io/icp_helmchart/helmrepo/emotions-analysis-ai-api-0.1.0.tgz
+    version: 0.1.0
   icphelmchart:
   - apiVersion: v1
     appVersion: "1.0"
-    created: 2019-06-24T15:13:49.348802435+05:30
+    created: 2019-06-25T14:20:28.759777576+05:30
     description: A Helm chart for Kubernetes
     digest: aa2cc44e957b272f563d686922433d838bef6f70d57d12b6a69e1c44995b98aa
     name: icphelmchart
@@ -45,7 +56,7 @@ entries:
   spark-app-launcher-helmchart:
   - apiVersion: v1
     appVersion: "1.0"
-    created: 2019-06-24T15:13:49.355587263+05:30
+    created: 2019-06-25T14:20:28.769073844+05:30
     description: A Helm chart for Kubernetes
     digest: eb1017ecda8f91be8e1c2dde7f90f480b28810e51ba7d74065c06d1debd0de75
     name: spark-app-launcher-helmchart
@@ -54,7 +65,7 @@ entries:
     version: 0.1.3
   - apiVersion: v1
     appVersion: "1.0"
-    created: 2019-06-24T15:13:49.354557454+05:30
+    created: 2019-06-25T14:20:28.766668676+05:30
     description: A Helm chart for Kubernetes
     digest: 1084205f63647fcbedc0af7eb8d0ce576824aa9236eb7ea41123352555ab5220
     name: spark-app-launcher-helmchart
@@ -63,7 +74,7 @@ entries:
     version: 0.1.2
   - apiVersion: v1
     appVersion: "1.0"
-    created: 2019-06-24T15:13:49.353567031+05:30
+    created: 2019-06-25T14:20:28.764332484+05:30
     description: A Helm chart for Kubernetes
     digest: aa9fbf9b53369bf641b75caa2d918b16269a684db32f0b752e03fa75812889e9
     name: spark-app-launcher-helmchart
@@ -72,7 +83,7 @@ entries:
     version: 0.1.1
   - apiVersion: v1
     appVersion: "1.0"
-    created: 2019-06-24T15:13:49.350928741+05:30
+    created: 2019-06-25T14:20:28.762004815+05:30
     description: A Helm chart for Kubernetes
     digest: bed61e43115651793b5221e8238f3648a4ee68f17227b6abd4db831aeb2f967a
     name: spark-app-launcher-helmchart
@@ -82,7 +93,7 @@ entries:
   voice-emotions-detection-helmchart:
   - apiVersion: v1
     appVersion: "1.0"
-    created: 2019-06-24T15:13:49.356559695+05:30
+    created: 2019-06-25T14:20:28.771573286+05:30
     description: A Helm chart for deploying service on k8 cluster to detect voice
       emotions.
     digest: 18483f7bb045e7ab24ea0b028cb1b2e889522fa1d043be0c55cc132bcec77da6
@@ -90,4 +101,4 @@ entries:
     urls:
     - https://arprasto.github.io/icp_helmchart/helmrepo/voice-emotions-detection-helmchart-0.1.0.tgz
     version: 0.1.0
-generated: 2019-06-24T15:13:49.339024972+05:30
+generated: 2019-06-25T14:20:28.748851331+05:30
